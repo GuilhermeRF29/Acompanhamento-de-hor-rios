@@ -1,0 +1,6 @@
+{
+  "name": "Controle de Partidas - Rodoviária",
+  "description": "Aplicativo mobile para gestão de partidas de ônibus, permitindo registrar horários de entrada na rodoviária, plataforma e saída.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
