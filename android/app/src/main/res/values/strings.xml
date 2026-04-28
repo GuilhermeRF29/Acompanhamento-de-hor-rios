@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name"> Controle de Partidas</string>
+    <string name="title_activity_main"> Controle de Partidas</string>
+    <string name="package_name">com.controle.partidas</string>
+    <string name="custom_url_scheme">com.controle.partidas</string>
+</resources>

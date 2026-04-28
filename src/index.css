@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-slate-200 rounded-2xl shadow-sm;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-xl font-medium active:scale-95 transition-all shadow-md shadow-blue-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-slate-200 text-slate-700 px-4 py-2 rounded-xl font-medium active:scale-95 transition-all;
+  }
+
+  .status-badge {
+    @apply px-2 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider whitespace-nowrap;
+  }
+}
